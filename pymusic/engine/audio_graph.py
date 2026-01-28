@@ -12,6 +12,7 @@ class Track:
         self.instrument = instrument
         self.pattern: Optional[Pattern] = None
         self.gain: float = 0.8
+        self.sidechain: bool = False
         
     def set_pattern(self, pattern: Pattern):
         self.pattern = pattern
