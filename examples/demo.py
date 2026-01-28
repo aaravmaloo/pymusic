@@ -1,10 +1,10 @@
-from pymusic.core.pitch import Note, Scale
-from pymusic.composition.pattern import Pattern
-from pymusic.composition.chord import Chord
-from pymusic.instruments.synth import SynthInstrument
-from pymusic.instruments.piano import PianoInstrument
-from pymusic.instruments.drums import DrumInstrument
-from pymusic.engine.audio_graph import Song
+from pymusik.core.pitch import Note, Scale
+from pymusik.composition.pattern import Pattern
+from pymusik.composition.chord import Chord
+from pymusik.instruments.synth import SynthInstrument
+from pymusik.instruments.piano import PianoInstrument
+from pymusik.instruments.drums import DrumInstrument
+from pymusik.engine.audio_graph import Song
 
 def main():
     print("Initializing pymusic demo...")

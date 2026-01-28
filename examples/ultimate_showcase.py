@@ -1,12 +1,12 @@
 import numpy as np
-from pymusic.core.pitch import Note, Scale, Pitch
-from pymusic.composition.pattern import Pattern
-from pymusic.instruments.synth import SynthInstrument
-from pymusic.instruments.piano import PianoInstrument
-from pymusic.instruments.drums import DrumInstrument
-from pymusic.instruments.phonk import PhonkCowbell, Bass808
-from pymusic.instruments.lofi import GuitarInstrument, SaxInstrument, MellowPiano, VinylEffect
-from pymusic.engine.audio_graph import Song
+from pymusik.core.pitch import Note, Scale, Pitch
+from pymusik.composition.pattern import Pattern
+from pymusik.instruments.synth import SynthInstrument
+from pymusik.instruments.piano import PianoInstrument
+from pymusik.instruments.drums import DrumInstrument
+from pymusik.instruments.phonk import PhonkCowbell, Bass808
+from pymusik.instruments.lofi import GuitarInstrument, SaxInstrument, MellowPiano, VinylEffect
+from pymusik.engine.audio_graph import Song
 
 def create_ultimate_layered_song():
     print("Starting the Ultimate LAYERED Musical Journey...")

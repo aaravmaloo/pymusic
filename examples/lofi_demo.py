@@ -1,8 +1,8 @@
-from pymusic.core.pitch import Note, Scale, Pitch
-from pymusic.composition.pattern import Pattern
-from pymusic.instruments.lofi import GuitarInstrument, SaxInstrument, MellowPiano, VinylEffect
-from pymusic.instruments.drums import DrumInstrument
-from pymusic.engine.audio_graph import Song
+from pymusik.core.pitch import Note, Scale, Pitch
+from pymusik.composition.pattern import Pattern
+from pymusik.instruments.lofi import GuitarInstrument, SaxInstrument, MellowPiano, VinylEffect
+from pymusik.instruments.drums import DrumInstrument
+from pymusik.engine.audio_graph import Song
 
 def create_lofi():
     print("Creating Lo-Fi chill vibes...")
