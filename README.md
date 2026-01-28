@@ -32,7 +32,7 @@ built for programmers, researchers, and audio engineers who want to create music
 | `oscillators` | Sine, Saw, Square, Noise | Mathematical waveform generators with phase maintenance. |
 | `envelopes` | ADSR | Attack, Decay, Sustain, Release curves. |
 | `filters` | LowPass | Butterworth filters for spectrum shaping. |
-| `effects` | Distortion, Reverb | Signal processing for grit and space. |
+| `effects` | Distortion, Delay, Chorus | Signal processing for grit, space, and width. |
 
 ### Included Instruments
 
@@ -43,6 +43,8 @@ built for programmers, researchers, and audio engineers who want to create music
 | `DrumInstrument` | Procedural | Mathematical kick, snare, and hi-hat synthesis. |
 | `PhonkCowbell` | Procedural | Iconic Memphis-style detuned square cowbells. |
 | `Bass808` | Hybrid | Low-frequency sine fundamental with harmonic distortion. |
+| `AcidBass` | Resonant | Sawtooth with filter envelope sweeps (303-style). |
+| `ProDrums` | High-Fi | Saturated kicks and snares for professional impact. |
 
 ---
 
@@ -80,6 +82,17 @@ bell = song.create_track("Cowbell", PhonkCowbell())
 bass = song.create_track("808", Bass808())
 # ... add patterns ...
 song.render("phonk_drift.wav")
+```
+
+### 4. Pro Hi-Fi Mixing (Sidechaining & Saturation)
+```python
+# Enable sidechain ducking on any track
+bass_track.sidechain = True 
+
+# The Renderer automatically applies:
+# - Beat-synced volume ducking
+# - Master soft-saturation and limiting
+song.render("pro_mix.wav")
 ```
 
 ---
